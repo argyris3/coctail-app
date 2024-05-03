@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="bg-header  min-h-screen bg-cover bg-no-repeat md:rounded-full md:bg-contain lg:bg-cover xl:bg-contain xl:rounded-full xl:mx-[200px] xl:size-[1400px] 2xl:size-[1700px] 2xl:rounded-full ">
+    <section className="bg-header  min-h-screen bg-cover bg-no-repeat md:rounded-full md:bg-cover lg:bg-contain lg:rounded-full xl:bg-contain xl:rounded-full xl:mx-[200px] xl:size-[1400px] 2xl:size-[1700px] 2xl:rounded-full ">
       <div className="md:absolute flex flex-col p-9 items-start gap-1  bottom-16 left-5 ">
         <h2
           className="font-semibold text-slate-300 text-3xl md:text-4xl lg:text-5xl xl:text:6xl 2xl:text-7xl lg:mb-1 mt-[200px]
