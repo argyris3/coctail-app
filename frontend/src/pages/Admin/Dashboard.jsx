@@ -75,6 +75,7 @@ const Dashboard = ({ url }) => {
     if (response.data.success) {
       setList1(response.data.data);
     } else {
+      console.log(error);
     }
   };
 
